@@ -5,7 +5,7 @@ import {
   TbBrandNodejs, TbBrandTypescript, TbBrandJavascript, TbBrandTailwind, 
   TbBrandReact, TbDatabase, TbBrandNextjs, TbApi, TbBrandAngular, 
   TbBrandReactNative, TbBrain, TbBrandAdobeIllustrator, TbBrandAdobePhotoshop,
-  TbBrandVscode, TbBrandWordpress, TbBrandAdobePremier, TbBrandAdobeAfterEffect,
+  TbBrandVscode, TbBrandWordpress, TbBrandAdobePremiere, TbBrandAdobeAfterEffect,
   TbBrandAdobe, TbBrandFigma
 } from 'react-icons/tb';
 
@@ -30,7 +30,7 @@ const designStack = [
   { name: "Canva", icon: SiCanvas, color: "text-[#00C4CC]" },
   { name: "VS Code", icon: TbBrandVscode, color: "text-[#007ACC]" },
   { name: "WordPress", icon: TbBrandWordpress, color: "text-[#21759B]" },
-  { name: "Premiere Pro", icon: TbBrandAdobePremier, color: "text-[#9999FF]" },
+  { name: "Premiere Pro", icon: TbBrandAdobePremiere, color: "text-[#9999FF]" },
   { name: "After Effects", icon: TbBrandAdobeAfterEffect, color: "text-[#9999FF]" },
   { name: "Creative Cloud", icon: TbBrandAdobe, color: "text-[#DA1F26]" },
   { name: "Elementor", icon: SiElementor, color: "text-[#92003B]" },

@@ -23,7 +23,7 @@ import {
   TbBrandNodejs, TbBrandTypescript, TbBrandJavascript, TbBrandTailwind, 
   TbBrandReact, TbDatabase, TbBrandNextjs, TbApi, TbBrandAngular, 
   TbBrandReactNative, TbBrain, TbBrandAdobeIllustrator, TbBrandAdobePhotoshop,
-  TbBrandVscode, TbBrandWordpress, TbBrandAdobePremier, TbBrandAdobeAfterEffect,
+  TbBrandVscode, TbBrandWordpress, TbBrandAdobePremiere, TbBrandAdobeAfterEffect,
   TbBrandAdobe, TbBrandFigma
 } from 'react-icons/tb';
 import { FaCode, FaMobileAlt, FaServer, FaGlobe, FaPaintBrush, FaWordpress } from 'react-icons/fa';
@@ -47,7 +47,7 @@ export const getSkillIcon = (skill: string): IconType => {
   
   if (s.includes('illustrator')) return TbBrandAdobeIllustrator;
   if (s.includes('photoshop')) return TbBrandAdobePhotoshop;
-  if (s.includes('premiere')) return TbBrandAdobePremier;
+  if (s.includes('premiere')) return TbBrandAdobePremiere;
   if (s.includes('after effects')) return TbBrandAdobeAfterEffect;
   if (s.includes('adobe')) return TbBrandAdobe;
   
