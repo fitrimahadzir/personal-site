@@ -17,7 +17,7 @@ import {
   SiGoogleplay,
   SiElementor,
   SiWebflow,
-  SiCanva
+  SiCanvas
 } from 'react-icons/si';
 import { 
   TbBrandNodejs, TbBrandTypescript, TbBrandJavascript, TbBrandTailwind, 
@@ -53,7 +53,7 @@ export const getSkillIcon = (skill: string): IconType => {
   
   if (s.includes('elementor')) return SiElementor;
   if (s.includes('webflow')) return SiWebflow;
-  if (s.includes('canva')) return SiCanva;
+  if (s.includes('canva')) return SiCanvas;
   if (s.includes('figma')) return TbBrandFigma;
   if (s.includes('vscode') || s.includes('vs code')) return TbBrandVscode;
   if (s.includes('wordpress')) return TbBrandWordpress;

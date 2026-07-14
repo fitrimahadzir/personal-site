@@ -7,7 +7,7 @@ import {
   TbBrandVscode, TbBrandWordpress, TbBrandAdobePremier, TbBrandAdobeAfterEffect,
   TbBrandAdobe
 } from 'react-icons/tb';
-import { SiElementor, SiWebflow, SiCanva } from 'react-icons/si';
+import { SiElementor, SiWebflow, SiCanvas } from 'react-icons/si';
 import AccentWord from './AccentWord';
 
 const techStack = [
@@ -28,7 +28,7 @@ const techStack = [
 const designStack = [
   { name: "Illustrator", icon: TbBrandAdobeIllustrator, color: "text-[#FF9A00]" },
   { name: "Photoshop", icon: TbBrandAdobePhotoshop, color: "text-[#31A8FF]" },
-  { name: "Canva", icon: SiCanva, color: "text-[#00C4CC]" },
+  { name: "Canva", icon: SiCanvas, color: "text-[#00C4CC]" },
   { name: "VS Code", icon: TbBrandVscode, color: "text-[#007ACC]" },
   { name: "WordPress", icon: TbBrandWordpress, color: "text-[#21759B]" },
   { name: "Premiere Pro", icon: TbBrandAdobePremier, color: "text-[#9999FF]" },
