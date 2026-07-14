@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=DM+Serif+Display&display=swap');
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-carena: "DM Serif Display", serif;
+  --font-signature: "Kaushan Script", cursive;
+  --color-dark-bg: #1b3438;
+  --color-brand-green: #b1ce31;
+  --color-accent-text: #274754;
+}
+
+@keyframes progress {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+
+@layer utilities {
+  .sticker-accent {
+    @apply relative inline-flex items-center justify-center isolate whitespace-nowrap;
+  }
+  .sticker-accent span {
+    @apply relative z-10 font-carena text-dark-bg dark:text-brand-green font-normal leading-none text-[1.15em];
+  }
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+  .animate-marquee {
+    animation: marquee 20s linear infinite;
+  }
+  @keyframes slide-marquee {
+    from { transform: translateX(0%); }
+    to { transform: translateX(-50%); }
+  }
+  @keyframes slide-marquee-reverse {
+    from { transform: translateX(-50%); }
+    to { transform: translateX(0%); }
+  }
+  .animate-slide-marquee {
+    animation: slide-marquee 25s linear infinite;
+  }
+  .animate-slide-marquee-reverse {
+    animation: slide-marquee-reverse 30s linear infinite;
+  }
+  .group:hover .animate-slide-marquee,
+  .group:hover .animate-slide-marquee-reverse {
+    animation-play-state: paused;
+  }
+}
+
+body {
+  @apply bg-white dark:bg-dark-bg text-slate-900 dark:text-slate-50;
+  overflow-x: clip;
+}

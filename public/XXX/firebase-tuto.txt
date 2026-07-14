@@ -1,0 +1,15 @@
+Saya telah berjaya menyediakan sistem Mini CMS untuk anda menguruskan projek portfolio dengan lebih mudah.
+Apa yang telah saya sediakan:
+Pangkalan Data Firebase: Saya telah menyambungkan laman web anda ke Firebase Firestore untuk penyimpanan data projek secara real-time.
+Admin Dashboard: Saya telah membina halaman pengurusan projek yang boleh diakses melalui menu Admin (hanya muncul jika anda log masuk sebagai admin).
+Sistem Keselamatan: Halaman Admin dilindungi. Hanya akaun Google anda (piteghixyz@gmail.com) yang mempunyai kebenaran untuk menambah atau memadam projek.
+Portfolio Dinamik: Bahagian Portfolio kini mengambil data terus dari Firebase. Sebaik sahaja anda menambah projek di dashboard, ia akan terus muncul di laman utama.
+Cara Menggunakannya:
+Log masuk ke laman web anda.
+Klik pada pautan Admin di bahagian Navbar (atas).
+Log masuk menggunakan akaun Google anda.
+Isi borang untuk menambah projek baru (Tajuk, Gambar, Deskripsi, dll).
+Klik "Add Project" dan lihat hasilnya di bahagian Portfolio!
+Nota Penting:
+Imej: Gunakan pautan URL imej (seperti dari Unsplash atau Imgur) untuk ruangan imej.
+Tags: Masukkan teknologi yang digunakan dan pisahkan dengan koma (contoh: React, Tailwind, Firebase).
