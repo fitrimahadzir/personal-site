@@ -214,7 +214,7 @@ export default function App() {
             <Projects onNavigate={setCurrentPage} />
             <Services />
             <WorkingProcess />
-            <Blogs />
+
             <Contact />
           </>
         );
